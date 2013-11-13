@@ -4139,13 +4139,13 @@ textarea {
 }
 /* ========== HEADER ========== */
 .navbar {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.95);
   /* use this if you want subtle transparency: rgba(255, 255, 255, 0.95); */
   font-size: 1.25em;
 
   position: fixed;
   width: 100%;
-  z-index: 999;
+  z-index: 9999;
   min-height: 84px;
   top: 0;
   border-radius: 0;
