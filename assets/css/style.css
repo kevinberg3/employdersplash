@@ -3986,8 +3986,9 @@ form {
 }
 /* ========== BOOTSTRAP OVERRIDES ========== */
 .lead {
-  font-weight: 100;
-  color: white;
+  font-weight: 200;
+  color: black;
+  /*font-family: 'IM Fell Double Pica';*/
 }
 .jumbotron {
   margin: 0;
@@ -4009,7 +4010,9 @@ form {
   padding: 10px 16px;
 }
 .btn-primary {
-  background-color: #38ad9e;
+  background-color: black;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
   color: #ffffff;
 }
 .btn-primary:hover {
@@ -4138,6 +4141,7 @@ textarea {
 .navbar {
   background-color: #ffffff;
   /* use this if you want subtle transparency: rgba(255, 255, 255, 0.95); */
+  font-size: 1.25em;
 
   position: fixed;
   width: 100%;
@@ -4161,8 +4165,8 @@ textarea {
   height: 35px;
   width: auto;
   /*padding: 7px 10px;*/
-  color: #ffffff;
-  background-color: #38ad9e;
+  /*color: #ffffff;*/
+  background-color: #ffffff;
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   -o-transition: background-color 0.2s;
@@ -4191,8 +4195,8 @@ textarea {
 }
 .navbar .navbar-nav li {
   margin-top: 18px;
-  margin-right: 28px;
-  padding: 14px;
+  margin-right: 10px;
+  padding: 10px;
   border-top: solid 3px transparent;
   -webkit-transition: border-top 0.4s;
   -moz-transition: border-top 0.4s;
@@ -4200,7 +4204,7 @@ textarea {
   transition: border-top 0.4s;
 }
 .navbar .navbar-nav li a {
-  color: #012d3d;
+  color: blue;
   text-align: center;
   background: transparent;
   padding: 0;
@@ -4274,7 +4278,7 @@ textarea {
 }
 #hero .hero-quote p,
 #primary-hero .hero-quote p {
-  font-size: 20px;
+  font-size: 23px;
   margin-bottom: 35px;
 }
 #hero .hero-quote p:last-child,
@@ -4319,7 +4323,7 @@ textarea {
 
 #about .container #aboutus p {
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1.35em;
 }
 
 
@@ -4370,7 +4374,7 @@ textarea {
 #testimonial .quote p {
   color: #ffffff;
   font-style: italic;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: left;
 }
 #quote .quote .author,
@@ -4535,7 +4539,7 @@ textarea {
 #about p {
   font-weight: 400;
 }
-#contact .lead, #services .lead {
+#contact .lead, #services .lead, #aboutus .lead {
   color: black;
   font-weight: 200;
 }
