@@ -4176,10 +4176,10 @@ textarea {
   background-color: #ff6867;
 }
 .navbar .logo {
-  padding: 0px;
-  background: url(/assets/) 0 0px no-repeat;
+  /*padding: 0px;*/
+  background: url(../images/logo.png) 0 0px no-repeat;
   background-size: cover;
-  height: 60px;
+  height: 4em;
   width: 222px;
   /*display: block;*/
   margin: 12px 0px 0px 0px;
@@ -4196,7 +4196,7 @@ textarea {
 .navbar .navbar-nav li {
   margin-top: 18px;
   margin-right: 10px;
-  padding: 10px;
+  /*padding: 10px;*/
   border-top: solid 3px transparent;
   -webkit-transition: border-top 0.4s;
   -moz-transition: border-top 0.4s;
