@@ -4180,12 +4180,12 @@ textarea {
   background: url(../images/logo.png) 0 0px no-repeat;
   background-size: cover;
   height: 4em;
-  width: 222px;
+  width: 230px;
   /*display: block;*/
-  margin: 12px 0px 0px 0px;
+  margin: 7px 0px 0px 0px;
   white-space: nowrap;
   overflow: hidden;
-  text-indent: 200%;
+  text-indent: 100%;
 }
 .navbar .navbar-nav {
   min-height: 84px;
@@ -4194,7 +4194,7 @@ textarea {
   text-align: left;
 }
 .navbar .navbar-nav li {
-  margin-top: 18px;
+  margin-top: 4.1rem;
   margin-right: 10px;
   /*padding: 10px;*/
   border-top: solid 3px transparent;
@@ -4204,7 +4204,8 @@ textarea {
   transition: border-top 0.4s;
 }
 .navbar .navbar-nav li a {
-  color: blue;
+  color: navy;
+  font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   background: transparent;
   padding: 0;
@@ -4323,10 +4324,12 @@ textarea {
 
 #about .container #aboutus p {
   text-align: left;
-  font-size: 1.3em;
+  font-size: 1.1em;
   
-  margin-top: -1em;
+  
 }
+
+
 
 
 /* ========== FEATURES ========== */
@@ -4770,4 +4773,10 @@ footer .social-links ul li a:hover {
 span.highlight {
   background-color: #ff6867;
   color: white;
+}
+
+#about .container #aboutus {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding: 2%;
 }
