@@ -4175,16 +4175,18 @@ textarea {
 .navbar .navbar-toggle:hover {
   background-color: #ff6867;
 }
+
 .navbar .logo {
   /*padding: 0px;*/
   background: url(../images/logo.png) 0 0px no-repeat;
   background-size: cover;
   height: 4em;
   width: 230px;
+
   /*display: block;*/
-  margin: 7px 0px 0px 0px;
-  white-space: nowrap;
-  overflow: hidden;
+  margin: 1em 0px 0px 0px;
+  /*white-space: nowrap;*/
+  overflow-y: visible;
   text-indent: 100%;
 }
 .navbar .navbar-nav {
@@ -4194,7 +4196,7 @@ textarea {
   text-align: left;
 }
 .navbar .navbar-nav li {
-  margin-top: 4.1rem;
+  margin-top: 4rem;
   margin-right: 10px;
   /*padding: 10px;*/
   border-top: solid 3px transparent;
@@ -4588,6 +4590,7 @@ footer .social-links ul li a:hover {
 
 #services img {
   position: center;
+  vertical-align: middle;
 }
 
 
@@ -4648,6 +4651,13 @@ footer .social-links ul li a:hover {
   #newsletter .input-group {
     margin: 0 56px;
   }
+
+  figure {
+    padding-right: 25%;
+    padding-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
 }
 @media screen and (max-width: 768px) {
   .col-xs-offset-2 {
@@ -4666,9 +4676,9 @@ footer .social-links ul li a:hover {
     padding: 28px 0;
   }
   .navbar {
-    position: relative;
+    position: fixed;
     margin-bottom: 0;
-    background: black;
+    background: white;
 
   }
   .navbar .navbar-nav {
