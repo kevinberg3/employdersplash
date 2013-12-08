@@ -9,10 +9,11 @@
   <meta charset="utf-8">
   <title>Employder</title>
   <link rel="shortcut icon" href="http://faviconist.com/icons/ad4a23943975750f9390c818e515367c/favicon.ico" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   
   <meta content="Employder" property="og:title">
   <meta content="Employder" property="og:site_name">
-  <meta name="description" content="Employder is a fully catered career counselling service integrated with professional mentorship. Build your career with the help of somseone who was just in your shoes.">
+  <meta name="description" content="Employder is a fully catered career counselling service integrated with professional mentorship. Build your career with the help of someone who was just in your shoes.">
   <meta content="en" http-equiv="Content-Language">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -23,45 +24,60 @@
   <!--[if IE]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ <script src="assets/libraries/jquery.min.js"></script>
  
  <style type="text/css"></style>
+ 
  <link rel="stylesheet" href="assets/css/style.css">
 
   
 </head>
 <body id="home" data-spy="scroll" data-offset="84" data-target=".navbar" style="">
 
-  <section id="header">
 
-  <nav class="navbar" role="navigation">
-    <div class="container">
-
-      <div class="navbar-header">
-        <a class="navbar-toggle btn btn-large animated fadeInRight collapsed" data-toggle="collapse" data-target=".navbar-collapse" href="#">
-         <span data-icon="" aria-hidden="true"></span>
-        </a>
-
-        <a class="navbar-brand logo animated fadeInLeft" href="/index.html"></a>
-
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              
+              <li><a id="homelink" href="#home">HOME</a></li>
+              <li><a id="servicelink" href="#services">services</a></li>
+              <li><a id="testimoniallink" href="#testimonial">testimonials</a></li>
+              <li><a id="aboutlink" href="#about">about us</a></li>
+              <li><a id="contactlink" href="#contact">sign up</a></li>
+              <li class="dropdown">
+                <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">mopdown <b class="caret"></b></a> -->
+                <ul class="dropdown-menu">
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a id="homelink" href="#home">HOME</a></li>
+                  <li><a id="servicelink" href="#services">services</a></li>
+                  <li><a id="testimoniallink" href="#testimonial">testimonials</a></li>
+                  <li><a id="aboutlink" href="#about">about us</a></li>
+                  <li><a id="contactlink" href="#contact">sign up</a></li>
+                  <!-- <li class="divider"></li> -->
+                  
+                </ul>
+              </li>
+            </ul>
+            <!-- <ul class="nav navbar-nav navbar-right">
+              <li><a href="../navbar/">Default</a></li>
+              <li><a href="../navbar-static-top/">Static top</a></li>
+              <li class="active"><a href="./">Fixed top</a></li>
+            </ul> -->
+          </div><!--/.nav-collapse -->
+        </div>
       </div>
 
-      
-      <div class="navbar-collapse animated fadeInRight collapse" style="height: 1px;">  
-        <ul class="nav navbar-nav pull-right navbar-right">
-          
-          <li><a id="homelink" href="#home">HOME</a></li>
-          
-         <li><a id="servicelink" href="#services">services</a></li>
-         <li><a id="testimoniallink" href="#testimonial">testimonials</a></li>
-         <li><a id="aboutlink" href="#about">about us</a></li>
-         <li><a id="contactlink" href="#contact">sign up</a></li>
-          
-          
-        </ul>
-      </div>
-    </div>
-  </nav>
+
 
 </section>
 
@@ -238,38 +254,56 @@
         <p class="lead">
           We're here to provide that same guidance.
         </p>
-        
-      </div>
-      <div class="col-lg-12" id="aboutus">
-    <!--      <p>
+        </div>
+      
+     <!--  <div class="col-lg-12" id="aboutus">
+         <p>
           We founded Employder after realizing that the best way to work one's way to a fulfilling and successful career was with the help of those who had already been there. We saw mentorship occuring amongst high-level executives, but it was close to non-existant amongst those in the most pivotal stages of their lives. We genuinely understood the impact and value of finding someone that is 3-5 years ahead of where you want to be In a perfect world everyone would have this person to help guide them on their career. Unfortunately, you have to be incredibly lucky to meet that person. 
         </p>
 
         
 <p>
         We were also unsatisfied with the guidance that could be found on internet forums or through a school's career centre, where advice was given by someone with little to no real world experience in your desired career.
-</p> -->
+
+</p>
+      </div> -->
       <div class="title-hr-dark"></div>
-        <p>
+
+      <div class="col-lg-12">
+        
+        <div class="quote">
+          <figure>
+            <div class="feature-icon slide-up">
+              
+              <img src="assets/images/me.jpg" alt="Kevin" class="img-circle"/>
+              <h3>Kevin - Founder</h3>
+            </div>
+            
+            <p class="feature-description">
+              
+            </p>
+          </figure> 
+
+        <p class="aboutus">
           We founded Employder, on the belief that even after spending an incredible sum at University both in time and money, that we were not fully prepared for our careers. We were well educated but lacked the skills, knowledge and most importantly the experience that would allow us to hit the ground running. After several years, we looked back and noticed that there was a very poor infrastructure to assure students to the given career path that they had invested so greatly in. We saw mentoring being provided by people that were too far removed for knowing what it truly took to break into a new career. Yes, there were lots of resources available to try and figure out all the little secrets and events to meet people that were in the right roles, but these took an enormous amount of time and could often lead to no solution. Web sites and forums could be helpful, but often times had misleading information, or in some cases completely wrong information.
         </p>
       
-        <p>
+        <p class="aboutus">
           At Employder, our belief is to offer a fully catered mentorship and career service by top professionals who have just gone through what you're about to go through. They've worked in the multi-national companies, and top-tier firms and know what it takes. While we can't promise you a job, we can promise that we'll put you in the best situation possible to landing your dream job.
         </p>
       
-        <p>
+        <p class="aboutus">
           Employder is the support network to get your career started off on the right track. Our services include preparing you for a career and matching you with a mentor who's just done what you're about to go through. 
         </p>
       
-        <p>
+        <p class="aboutus">
           Our goal is to hold your hand and lead you towards career planning and mentorship from people who have just gone through what you're about to and know what it's like to be in your shoes.  They've worked in recruiting and excelled in their career and now they can help share their experience with you.
         </p>
       </div>
-
-      
+      </div>
+     </div>
     </div>
-  </div>
+  
 </section>
 
 
@@ -356,19 +390,7 @@
       
     </div>
   </div>
-     <script>
-     $(document).ready(function(){
-       $('.extra').on('click', function() {
-         $.smoothScroll({
-           scrollElement: $('#services'),
-           scrollTarget: '#services'
-         });
-         return false;
-       });
-      });
-
-    </script>   
-      
+     
         
    
 

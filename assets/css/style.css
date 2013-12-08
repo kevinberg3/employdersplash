@@ -4058,6 +4058,7 @@ textarea {
   border-bottom: solid 4px #dddddd;
   width: 320px;
   margin: 28px auto 56px;
+  margin-bottom: 3%;
 }
 .thumb {
   padding: 4px;
@@ -4176,7 +4177,7 @@ textarea {
   background-color: #ff6867;
 }
 
-.navbar .logo {
+.navbar-brand {
   /*padding: 0px;*/
   background: url(../images/logo.png) 0 0px no-repeat;
   background-size: cover;
@@ -4738,7 +4739,7 @@ footer .social-links ul li a:hover {
   }
   #clients .title-hr,
   #about .title-hr {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
   #clients .image-list,
   #about .image-list {
@@ -4773,7 +4774,7 @@ footer .social-links ul li a:hover {
 @media screen and (max-width: 480px) {
   #clients .image-list,
   #about .image-list {
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 5px;
   }
   #clients .image-list .row > div,
   #about .image-list .row > div {
@@ -4785,8 +4786,31 @@ span.highlight {
   color: white;
 }
 
-#about .container #aboutus {
-  margin-top: 1em;
-  margin-bottom: 2em;
-  padding: 2%;
+
+#about .col-lg-12 .aboutus {
+  /*margin-left: -1em;
+  margin-right: -1em;
+  text-align: left;
+  padding: 2px;
+  overflow: hidden;*/
+  
+}
+
+#about .col-lg-12 figure {
+  height: 140px;
+  width: 140px;
+  float: right;
+  margin: 5px;
+  padding: 5px;
+  font-size: 7em;
+}
+
+#about  {
+  margin-bottom: 2px;
+  margin-top: 1px;
+}
+
+#about {
+  height: 100vh;
+  text-align: left;
 }
